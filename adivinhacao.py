@@ -50,3 +50,12 @@ def jogar_adivinhacao():
     print('O número secreto é: ', numero_secreto)
     print('Fim do jogo!')
     print('---------------------------------------------------------------------------------------------------------')
+
+
+# para eu conseguir executar essa função por esse arquivo: advinhacao.py
+# preciso chamar a função jogar_adivinhacao, porém se eu chamar diretamente
+# no arquivo jogos o import advinhacao será executado direto e iniciará
+# o jogo advinhacao, então preciso testar se isso e depois chamar a função
+
+if(__name__ == '__main__'):
+    jogar_adivinhacao()

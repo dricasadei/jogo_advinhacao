@@ -15,3 +15,5 @@ if (jogo == 1):
 else:
     print('Você escolheu o Jogo da Forca!')
     forca.jogar_forca() # chamando a função do jogo e o import para executar
+    
+    
