@@ -24,7 +24,6 @@ else:
 for rodada in range(1, tentativas + 1):
     print('---------------------------------------------------------------------------------------------------------')
     print(f'Tentativa {rodada} de {tentativas}')
-    print('Pontos: {}'. format(pontos))
     print('---------------------------------------------------------------------------------------------------------')
     chute = int(input('Digite um número entre 1 e 100: '))
     
@@ -44,7 +43,6 @@ for rodada in range(1, tentativas + 1):
         print('O número secreto é maior que seu chute!')
     else:
         print('Suas chances acabaram! O número secreto é: ', numero_secreto)
-        print('Você terminou o jogo com {} pontos'. format(pontos))
         print('--------------------------------------------------------------------------------------------------------')
     pontos_perdidos = abs(numero_secreto -  chute)
     pontos = pontos - pontos_perdidos
