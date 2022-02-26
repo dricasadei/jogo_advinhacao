@@ -1,8 +1,8 @@
 import random
 
-print('********************')
-print('Jogo de advinhação!')
-print('********************')
+print('*******************************')
+print('******Jogo de advinhação!******')
+print('*******************************')
 
 numero_secreto = random.randint(1,100)
 tentativas = 0
